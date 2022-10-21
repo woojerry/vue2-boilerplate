@@ -1,0 +1,17 @@
+{
+    "compilerOptions": { // absolute path using VScode
+      "baseUrl": ".",
+      "paths": {
+        "~/*": [
+          "./*"
+        ],
+        "@/*": [ 
+          "./src/*"
+        ],
+      }
+    },
+    "exclude": [
+      "node_modules", // exclude library, build
+      "dist"
+    ]
+  }
