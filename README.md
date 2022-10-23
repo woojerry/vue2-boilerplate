@@ -1,5 +1,6 @@
 # todo-boilerplate-for-vue 
-# ver. Vue 2.6.11
+# ver. Vue ^2.6.11
+# vue/cli-service": ^4.1.1
 
 ## Project setup
 ```

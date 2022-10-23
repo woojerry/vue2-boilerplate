@@ -1,9 +1,22 @@
 <template>
-	<main></main>
+	<Background>
+		<main class="todo-main">TodoList</main>
+	</Background>
 </template>
 
 <script>
-export default {};
+import Background from '@/components/common/Background.vue';
+
+export default {
+	components: {
+		Background,
+	},
+};
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+.todo-main {
+	display: flex;
+	flex-direction: column;
+}
+</style>
