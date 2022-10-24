@@ -15,7 +15,7 @@ module.exports = {
 				useTabs: true,
 				tabWidth: 2,
 				trailingComma: 'all', // object last comma
-				printWidth: 80,
+				printWidth: 100,
 				bracketSpacing: true,
 				arrowParens: 'avoid', // arrow function params 
         		endOfLine: 'auto', // for Delete 'CR' error
